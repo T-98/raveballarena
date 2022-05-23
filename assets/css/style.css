@@ -1,159 +1,109 @@
-/*clearing default browser settings*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-/*styling elements within the body tag*/
-body {
-    background-color: #d9dcd6;
-}
-
-/*---------------------------------------------------------------------------------------------------*/
-
-/*Begin styling header and its components*/
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-header h1 .seo {
-    color: #d9dcd6;
-}
-
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-/*End of styling header and its components*/
-
-/*---------------------------------------------------------------------------------------------------*/
-
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-/*Begin styling hero and its components*/
-.hero {
-    height: 800px;
+.showcase {
+    position: absolute;
+    right: 0;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+
+.showcase header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.logo-img {
+    height: 50px;
+    width: 200px;
+}
+
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url('toggle.png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.toggle.active {
+    background: url('toggleoff.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
     background-position: center;
 }
-/*End of styling hero and its components*/
 
-/*---------------------------------------------------------------------------------------------------*/
-
-/*Begin styling benefits section and its components*/
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    object-fit: cover;
+    opacity: 1;
 }
 
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: grey;
+    mix-blend-mode: overlay;
 }
 
-.benefit-head {
-    margin-bottom: 10px;
-    text-align: center;
+.text {
+    positon: relative;
+    z-index: 10;
 }
 
-.benefit-img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+.text h2 {
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
 }
 
-#float-left {
-    float: left;
-    margin-right: 25px;
+.text h3 {
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
 }
 
-#float-right {
-    float: right;
-    margin-left: 25px;
-}
-/*End of styling benefits section and its components*/
-
-/*---------------------------------------------------------------------------------------------------*/
-
-/*Begin styling content section and its components*/
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.text p {
+    font-size: 1.1em;
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 700px;
 }
 
-.content-item {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-item-img {
-    max-height: 200px;
-}
-
-.content-item-head {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/*End of styling content section and its components*/
-
-/*---------------------------------------------------------------------------------------------------*/
-
-/*Beginning of styling footer and its components*/
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
-}
-
-/*End of styling footer and its components*/
-
-/*END---OF---FILE*/
-/*******************************************************************************************************/
+.menu {}
