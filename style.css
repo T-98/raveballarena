@@ -8,7 +8,7 @@ video {
   }
   .video-wrapper {
     height: 35em;
-    border: 2px solid #000;
+    border: 3px solid #000;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -23,5 +23,23 @@ video {
   }
   .navbar-header {
     max-height: 70px;
-    margin-right: 0;
+}
+.navbar-toggle {
+
+  display: block;
+  margin-top: 0; 
+}
+
+.navbar-collapse.collapse {
+  display: none !important;
+}
+.intro{
+  background:linear-gradient(45deg,#412348,#33615d);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 }
