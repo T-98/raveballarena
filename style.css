@@ -1,0 +1,27 @@
+video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .video-wrapper {
+    height: 35em;
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header{
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  }
+  .navbar-header {
+    max-height: 70px;
+    margin-right: 0;
+}
