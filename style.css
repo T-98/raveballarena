@@ -1,12 +1,6 @@
-video {
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-  }
+
   .video-wrapper {
+    background:#381e3f;
     height: 35em;
     border: 3px solid #000;
     position: relative;
@@ -34,6 +28,7 @@ video {
   display: none !important;
 }
 .intro{
+  overflow: hidden;
   background:linear-gradient(45deg,#412348,#33615d);
   display: flex;
   text-align: center;
@@ -42,4 +37,25 @@ video {
   position: relative;
   color: white;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  margin-bottom: 0; 
+}
+.intro1{
+  overflow: hidden;
+  padding: 0%;
+  background:#2a172f;
+  display:block;
+  justify-content: baseline;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  margin-bottom: 0; 
+}
+.gameplay{
+  background:black;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  margin-bottom: 0; 
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
 }
