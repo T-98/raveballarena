@@ -60,7 +60,7 @@
 .credits{
   background:rgb(0, 0, 0);
   color: white;
-  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.6);
+  text-shadow: 2px 2px 8px rgba(235, 166, 220, 0.6);
   margin-bottom: 0; 
   display: block;
   position: relative;
@@ -73,7 +73,7 @@
   justify-items: flex-start;
   background:rgb(0, 0, 0);
   color: white;
-  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.6);
+  text-shadow: 2px 2px 8px rgba(232, 123, 205, 0.6);
   margin-bottom: 0; 
   display: inline-box;
   position: relative;
