@@ -60,7 +60,21 @@
 .credits{
   background:rgb(0, 0, 0);
   color: white;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.6);
   margin-bottom: 0; 
-  display: flex;
+  display: block;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.credits1{
+  justify-items: flex-start;
+  background:rgb(0, 0, 0);
+  color: white;
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.6);
+  margin-bottom: 0; 
+  display: inline-box;
+  position: relative;
 }
