@@ -78,3 +78,19 @@
   display: inline-box;
   position: relative;
 }
+.gallery{
+  background:linear-gradient(60deg, #5e2348,#224943)
+}
+
+.item {
+  display: inline-flex;
+  width: 25em;
+
+  align-items: center;
+  justify-content: center;
+}
+.item img {
+  display: block;
+  width: 100%;
+  
+}
