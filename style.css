@@ -1,4 +1,36 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.text {
+  positon: relative;
+  z-index: 10;
+}
+
+.text h2 {
+  font-size: 5em;
+  font-weight: 800;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.text h3 {
+  font-size: 4em;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.text p {
+  font-size: 1.1em;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
   .video-wrapper {
     background:#381e3f;
     height: 35em;
@@ -36,7 +68,6 @@
   justify-content: center;
   position: relative;
   color: white;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
   margin-bottom: 0; 
 }
 .intro1{
@@ -47,7 +78,6 @@
   justify-content: baseline;
   position: relative;
   color: white;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
   margin-bottom: 0; 
 }
 ::-webkit-scrollbar{
