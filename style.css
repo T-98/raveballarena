@@ -7,7 +7,6 @@
   font-family: 'Poppins', sans-serif;
 }
 .text {
-  positon: relative;
   z-index: 10;
 }
 
@@ -51,7 +50,6 @@
     max-height: 70px;
 }
 .navbar-toggle {
-
   display: block;
   margin-top: 0; 
 }
@@ -61,21 +59,33 @@
 }
 .intro{
   overflow: hidden;
-  background:linear-gradient(45deg,#412348,#33615d);
+  background:linear-gradient(45deg,#e59dd4,#412348);
   display: flex;
   text-align: center;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  color: white;
+  margin-bottom: 0; 
+}
+.intro1{
+  overflow: hidden;
+  padding: 0%;
+  background:linear-gradient(45deg,#412348,#33615d);
+  display:flex;
   align-items: center;
   justify-content: center;
   position: relative;
   color: white;
   margin-bottom: 0; 
 }
-.intro1{
-  overflow: scroll;
+.intro2{
+  overflow: hidden;
   padding: 0%;
-  background:#2a172f;
-  display:block;
-  justify-content: baseline;
+  background:black;
+  display:flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   color: white;
   margin-bottom: 0; 
@@ -93,6 +103,9 @@
 	border-radius:10px;
 }
 .gameplay{
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
   background:black;
   color: white;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
